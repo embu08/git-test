@@ -1,0 +1,30 @@
+body{
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: rgba(33, 37, 41, 1);
+    overflow-x: hidden;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    color: rgba(255, 255, 255, 1);
+}
+.porftolio-h1{
+    font-size: 72px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 576px){
+    .porftolio-h1{
+        font-size: 48px;
+    }
+    .table-wrap{
+        max-width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+

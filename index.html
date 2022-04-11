@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <!-- bootstrap 5-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #343a40"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">НЛК</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Портфолио</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Рейтинг</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Помощь</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid p-0">
+      <div class="p-5" style="background-color: #e9ecef">
+        <h1 class="porftolio-h1">Портфолио</h1>
+        <p class="col-lg-6 md-11">
+          Это место, где собраны ваши научные публикации. Здесь вы можете
+          добавлять свои научные работы, получать информацию об их уникальности
+          и смотреть отзывы ваших научных руководителей.
+        </p>
+        <button type="button" class="btn btn-primary btn-lg">
+          Добавить работу
+        </button>
+      </div>
+
+      <div class="row align-items-start m-0">
+        <div class="col-lg-5 col-md-7 col-xs-12 p-4">
+          <div class="p-3 border" style="background-color: #e9ecef">
+            <span>Ваш профиль</span>
+          </div>
+          <div class="p-3 border">
+            <h3>Сергей Павлович Фролов</h3>
+            <span>
+              <strong>Научная степень:</strong> Магистр. <br />
+              <strong>Специализация:</strong> Инвестиционные проблемы
+              экономически развивающихся рынков.<br />
+            </span>
+            <button type="button" class="btn btn-primary btn-md mt-2">
+              Редактировать
+            </button>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-5 col-xs-12 p-4">
+          <div class="p-3 border" style="background-color: #e9ecef">
+            <span>Статистика</span>
+          </div>
+          <div class="p-3 border">
+            <span>
+              <strong>На платформе:</strong> 2 года. <br />
+              <strong>Добавлено работ:</strong> 10. <br />
+              <strong>Средняя уникальность:</strong> 75%. <br />
+              <strong>Языки работ:</strong> русский, английский.
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-4 table-wrap">
+        <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th>Название работы</th>
+              <th>Дата загрузки</th>
+              <th>Научный руководитель</th>
+              <th>Уникальность</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="text-primary">
+                Привлечение инвестиций как фактор развития экономики
+              </td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Асаншоева А.М.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">
+                The role of accounting in sustainable development
+              </td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Шаляпина В.С.</td>
+              <td class="text-primary">78%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">
+                Сценарный анализ как инструмент учета рисков инвестиционного
+                проекта
+              </td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Васильев М.Г.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">
+                Глобальные и региональные инвестиционные тенденции
+              </td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Асаншоева А.М.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">Systemic risks in financial markets</td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Леонидов В.Б.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">
+                The influence of tax regulation liberalisation on the domestic
+                debt market
+              </td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Шаляпина В.С.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">Биткоин как новый вид инвестиций</td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Асаншоева А.М.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">
+                Проблема воспроизводства жилищного фонда в России
+              </td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Васильев М.Г.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">Влияние безработицы на экономику СНГ</td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Васильев М.Г.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+            <tr>
+              <td class="text-primary">Мировой валютный рынок Форекс</td>
+              <td>21.05.2019</td>
+              <td class="text-primary">Васильев М.Г.</td>
+              <td class="text-primary">89%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <footer class="container-fluid p-4" style="background-color: #e9ecef">
+      <span>© Научный личный кабинет. Все права защищены</span>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
